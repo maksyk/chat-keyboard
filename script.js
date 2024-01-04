@@ -21,6 +21,7 @@ const writeMessage = (safe = false) => {
   if (!input.value) {
     return;
   }
+  input.blur()
   const li = document.createElement("li");
   li.classList.add("me");
   safe ? (li.innerHTML = input.value) : (li.textContent = input.value);

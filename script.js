@@ -32,7 +32,7 @@ const writeMessage = (safe = false) => {
   setTimeout(() => {
     const li = document.createElement("li");
     li.classList.add("them");
-    li.textContent = ["LOL, yeah!", "What?", "No way.", "Awesome!!1!"][
+    li.textContent = ["LO1L, yeah1!", "What1?", "N1o way.", "A1wesome!!1!", '1111'][
       Math.floor(Math.random() * 4)
     ];
     ul.append(li);
